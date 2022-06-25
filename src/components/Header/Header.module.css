@@ -1,0 +1,26 @@
+.header {
+  background-color: #b2ebf2;
+  grid-area: h;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__search {
+  padding-left: 5px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+}
+.header__search:hover {
+  border: 1px solid #90caf9;
+}
+.logo__img {
+  width: 40px;
+  height: 40px;
+}
